@@ -28,10 +28,10 @@ const Register = () => {
         e.preventDefault();
     }
     return (
-        <Container>
+        <Container className='bglogin'>
             <Grid container sx={{ m: 2 }} spacing={2}>
                 <Grid item xs={12} sm={6} md={6} >
-                    <Typography variant="body1" gutterBottom >
+                    <Typography style={{ fontSize: '30px', color: '#f78c00', fontWeight: 'bold' }} variant="body1" gutterBottom >
                         Register
                     </Typography>
                     {!isLoading && <form onSubmit={handleLoginSubmit} >
@@ -88,7 +88,7 @@ const Register = () => {
             </Grid>
             <center>
                 <NavLink to="/">
-                    <Button variant="contained">Go Home Page</Button>
+                    <Button class="button-29 pt-2" variant="contained">Go Home Page</Button>
                 </NavLink>
             </center>
         </Container >

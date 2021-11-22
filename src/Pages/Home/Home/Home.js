@@ -10,6 +10,7 @@ import Designer from './Designer/Designer';
 import PromoVideo from './PromoVideo/PromoVideo';
 import ShowReview from './ShowReview/ShowReview';
 import Subscribe from './Subscribe/Subscribe';
+import Restaurant from './Restaurant/Restaurant';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Navigation></Navigation>
             <Banner></Banner>
             {/* <Brands></Brands> */}
+            <Restaurant></Restaurant>
             <Services></Services>
             <PromoVideo></PromoVideo>
 

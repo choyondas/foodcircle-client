@@ -19,6 +19,7 @@ import Error from './Pages/Error/Error';
 
 import ShowReview from './Pages/Home/Home/ShowReview/ShowReview';
 import UpdateOrder from './Pages/Dashboard/UpdateOrder/UpdateOrder';
+import Restaurant from './Pages/Home/Home/Restaurant/Restaurant';
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route path="/allproducts">
               <AllProducts></AllProducts>
+            </Route>
+            <Route path="/restaurant">
+              <Restaurant></Restaurant>
             </Route>
             <Route path="/review">
               <ShowReview></ShowReview>
