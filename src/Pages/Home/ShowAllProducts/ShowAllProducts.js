@@ -14,7 +14,7 @@ const ShowAllProducts = (props) => {
                         <img className="w-50" src={img} />
                     </div>
                     <div class="contentBx">
-                        <h2 style={{ color: '#c46212', fontWeight: 'bold', fontSize: "30px" }} >{name}</h2>
+                        <h2 style={{ color: '#c46212', fontWeight: 'bold', fontSize: "30px" }} >hi: {name}</h2>
                         <div class="size">
                             <h3>{des}</h3>
 
